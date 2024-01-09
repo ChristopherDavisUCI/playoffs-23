@@ -114,10 +114,13 @@ def get_pairs(teams):
 def get_favorite(team1, team2):
     return team1 if team_seeds[team1] < team_seeds[team2] else team2
 
-def get_prob(pair, outcome):
+def get_prob(pair, outcome, use_hfa=True):
     winner = next(team for team in pair if team in outcome)
     loser = next(team for team in pair if team != winner)
-    hfa = pr["HFA"] if winner == get_favorite(winner, loser) else -pr["HFA"]
+    if use_hfa:
+        hfa = pr["HFA"] if winner == get_favorite(winner, loser) else -pr["HFA"]
+    else:
+        hfa = 0
     return spread_to_prob(pr[winner] - pr[loser] + hfa)
     
 def wc_poss(df):
@@ -183,7 +186,7 @@ matchup_dct.update(temp)
 sb_probs = []
 for p, matchup in prob_matchups:
     for outcome in matchup:
-        prob = p*get_prob(matchup, outcome)
+        prob = p*get_prob(matchup, outcome, use_hfa=False)
         sb_probs.append((prob, outcome))
 
 sb_dct = {t:0 for t in teams}
