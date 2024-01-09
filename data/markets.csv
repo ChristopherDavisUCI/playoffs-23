@@ -1,0 +1,105 @@
+team,odds,date,site,division,conference,market,team1,team2
+BAL,125,Jan08,BetOnline,AFC North,AFC,conference,,
+BUF,265,Jan08,BetOnline,AFC East,AFC,conference,,
+KC,450,Jan08,BetOnline,AFC West,AFC,conference,,
+MIA,900,Jan08,BetOnline,AFC East,AFC,conference,,
+CLE,1000,Jan08,BetOnline,AFC North,AFC,conference,,
+HOU,2000,Jan08,BetOnline,AFC South,AFC,conference,,
+PIT,5000,Jan08,BetOnline,AFC North,AFC,conference,,
+SF,-130,Jan08,BetOnline,NFC West,NFC,conference,,
+DAL,285,Jan08,BetOnline,NFC East,NFC,conference,,
+PHI,800,Jan08,BetOnline,NFC East,NFC,conference,,
+DET,900,Jan08,BetOnline,NFC North,NFC,conference,,
+LA,1600,Jan08,BetOnline,NFC West,NFC,conference,,
+GB,3300,Jan08,BetOnline,NFC North,NFC,conference,,
+TB,3300,Jan08,BetOnline,NFC South,NFC,conference,,
+SF,200,Jan08,BetOnline,NFC West,NFC,super bowl,,
+BAL,330,Jan08,BetOnline,AFC North,AFC,super bowl,,
+BUF,550,Jan08,BetOnline,AFC East,AFC,super bowl,,
+DAL,800,Jan08,BetOnline,NFC East,NFC,super bowl,,
+KC,1000,Jan08,BetOnline,AFC West,AFC,super bowl,,
+PHI,1600,Jan08,BetOnline,NFC East,NFC,super bowl,,
+MIA,1800,Jan08,BetOnline,AFC East,AFC,super bowl,,
+DET,2000,Jan08,BetOnline,NFC North,NFC,super bowl,,
+CLE,2800,Jan08,BetOnline,AFC North,AFC,super bowl,,
+LA,3300,Jan08,BetOnline,NFC West,NFC,super bowl,,
+HOU,4500,Jan08,BetOnline,AFC South,AFC,super bowl,,
+TB,6600,Jan08,BetOnline,NFC South,NFC,super bowl,,
+GB,8000,Jan08,BetOnline,NFC North,NFC,super bowl,,
+PIT,10000,Jan08,BetOnline,AFC North,AFC,super bowl,,
+,295,Jan08,BetOnline,,,exact matchup,SF,BAL
+,540,Jan08,BetOnline,,,exact matchup,SF,BUF
+,740,Jan08,BetOnline,,,exact matchup,DAL,BAL
+,875,Jan08,BetOnline,,,exact matchup,SF,KC
+,1250,Jan08,BetOnline,,,exact matchup,DAL,BUF
+,1600,Jan08,BetOnline,,,exact matchup,SF,MIA
+,1700,Jan08,BetOnline,,,exact matchup,SF,CLE
+,1800,Jan08,BetOnline,,,exact matchup,PHI,BAL
+,1900,Jan08,BetOnline,,,exact matchup,DAL,KC
+,2100,Jan08,BetOnline,,,exact matchup,DET,BAL
+,3000,Jan08,BetOnline,,,exact matchup,PHI,BUF
+,3500,Jan08,BetOnline,,,exact matchup,DET,BUF
+,3500,Jan08,BetOnline,,,exact matchup,SF,HOU
+,3600,Jan08,BetOnline,,,exact matchup,DAL,MIA
+,3700,Jan08,BetOnline,,,exact matchup,LA,BAL
+,4000,Jan08,BetOnline,,,exact matchup,DAL,CLE
+,4500,Jan08,BetOnline,,,exact matchup,PHI,KC
+,5400,Jan08,BetOnline,,,exact matchup,DET,KC
+,6100,Jan08,BetOnline,,,exact matchup,LA,BUF
+,7500,Jan08,BetOnline,,,exact matchup,GB,BAL
+,7500,Jan08,BetOnline,,,exact matchup,TB,BAL
+,7700,Jan08,BetOnline,,,exact matchup,DAL,HOU
+,8400,Jan08,BetOnline,,,exact matchup,PHI,MIA
+,8700,Jan08,BetOnline,,,exact matchup,SF,PIT
+,9200,Jan08,BetOnline,,,exact matchup,LA,KC
+,9200,Jan08,BetOnline,,,exact matchup,PHI,CLE
+,9900,Jan08,BetOnline,,,exact matchup,DET,MIA
+,10900,Jan08,BetOnline,,,exact matchup,DET,CLE
+,12300,Jan08,BetOnline,,,exact matchup,GB,BUF
+,12300,Jan08,BetOnline,,,exact matchup,TB,BUF
+,16900,Jan08,BetOnline,,,exact matchup,LA,MIA
+,17700,Jan08,BetOnline,,,exact matchup,PHI,HOU
+,18600,Jan08,BetOnline,,,exact matchup,GB,KC
+,18600,Jan08,BetOnline,,,exact matchup,LA,CLE
+,18600,Jan08,BetOnline,,,exact matchup,TB,KC
+,19000,Jan08,BetOnline,,,exact matchup,DAL,PIT
+,20900,Jan08,BetOnline,,,exact matchup,DET,HOU
+,33900,Jan08,BetOnline,,,exact matchup,GB,MIA
+,33900,Jan08,BetOnline,,,exact matchup,TB,MIA
+,35600,Jan08,BetOnline,,,exact matchup,LA,HOU
+,37300,Jan08,BetOnline,,,exact matchup,GB,CLE
+,37300,Jan08,BetOnline,,,exact matchup,TB,CLE
+,43200,Jan08,BetOnline,,,exact matchup,PHI,PIT
+,50900,Jan08,BetOnline,,,exact matchup,DET,PIT
+,71300,Jan08,BetOnline,,,exact matchup,GB,HOU
+,71300,Jan08,BetOnline,,,exact matchup,TB,HOU
+,86600,Jan08,BetOnline,,,exact matchup,LA,PIT
+,173300,Jan08,BetOnline,,,exact matchup,GB,PIT
+BAL,130,Jan08,Bovada,AFC North,AFC,conference,,
+BUF,250,Jan08,Bovada,AFC East,AFC,conference,,
+KC,450,Jan08,Bovada,AFC West,AFC,conference,,
+MIA,750,Jan08,Bovada,AFC East,AFC,conference,,
+CLE,950,Jan08,Bovada,AFC North,AFC,conference,,
+HOU,2200,Jan08,Bovada,AFC South,AFC,conference,,
+PIT,5000,Jan08,Bovada,AFC North,AFC,conference,,
+SF,-140,Jan08,Bovada,NFC West,NFC,conference,,
+DAL,275,Jan08,Bovada,NFC East,NFC,conference,,
+PHI,750,Jan08,Bovada,NFC East,NFC,conference,,
+DET,900,Jan08,Bovada,NFC North,NFC,conference,,
+LA,1500,Jan08,Bovada,NFC West,NFC,conference,,
+GB,3500,Jan08,Bovada,NFC North,NFC,conference,,
+TB,3500,Jan08,Bovada,NFC South,NFC,conference,,
+SF,180,Jan08,Bovada,NFC West,NFC,super bowl,,
+BAL,330,Jan08,Bovada,AFC North,AFC,super bowl,,
+BUF,550,Jan08,Bovada,AFC East,AFC,super bowl,,
+DAL,800,Jan08,Bovada,NFC East,NFC,super bowl,,
+KC,1000,Jan08,Bovada,AFC West,AFC,super bowl,,
+PHI,1500,Jan08,Bovada,NFC East,NFC,super bowl,,
+MIA,2000,Jan08,Bovada,AFC East,AFC,super bowl,,
+CLE,2500,Jan08,Bovada,AFC North,AFC,super bowl,,
+DET,2500,Jan08,Bovada,NFC North,NFC,super bowl,,
+LA,3000,Jan08,Bovada,NFC West,NFC,super bowl,,
+HOU,4000,Jan08,Bovada,AFC South,AFC,super bowl,,
+TB,8000,Jan08,Bovada,NFC South,NFC,super bowl,,
+GB,8500,Jan08,Bovada,NFC North,NFC,super bowl,,
+PIT,15000,Jan08,Bovada,AFC North,AFC,super bowl,,
