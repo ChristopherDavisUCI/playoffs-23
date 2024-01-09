@@ -210,6 +210,8 @@ prob_dct = {
     "exact matchup": matchup_dct
 }
 
+update_date = market.iloc[0]["date"]
+
 kelly_list = []
 
 for _, row in market.iterrows():
@@ -231,5 +233,7 @@ df_kelly = pd.DataFrame(kelly_list)
 rec = df_kelly[df_kelly["Kelly"] > 0].sort_values("Kelly", ascending=False)
 rec["Odds"] = rec["Odds"].astype(str).map(display_plus)
 rec = rec[["Team", "Market", "Odds", "Prob", "Site", "Kelly"]].reset_index(drop=True).copy()
+
+st.write(f"Market numbers last updated {update_date}.")
 
 st.write(rec)
