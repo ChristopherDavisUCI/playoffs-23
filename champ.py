@@ -39,9 +39,11 @@ df = df.reset_index().set_index("Seed")
 
 conf_dct = {conf:df[df["Conf"] == conf] for conf in df["Conf"].values}
 
-st.set_page_config(page_title="Super Bowl markets")
+st.set_page_config(page_title="Playoff markets")
 
-st.title('Super Bowl markets')
+st.title('Playoff markets')
+
+st.write('''Set your power ratings at the left.  (I think there is currently an issue where you should either upload a file or use the sliders but not both.)''')
 
 with st.sidebar:
 
@@ -144,7 +146,7 @@ def div_poss(teams):
         probs.append((prob, outcome))
     return probs
 
-st.header("Possible outcomes")
+st.header("Comparison to market numbers")
 
 # This is the probability of making the super bowl
 # The sum of these probabilities is 2, not 1.
@@ -237,3 +239,19 @@ rec = rec[["Team", "Market", "Odds", "Prob", "Site", "Kelly"]].reset_index(drop=
 st.write(f"Market numbers last updated {update_date}.")
 
 st.write(rec)
+
+def convert_dct(dct):
+    ser = pd.Series({k: prob_to_odds(v) for k,v in dct.items()})
+    ser.name = "Odds"
+    return ser
+
+st.header("Estimated odds")
+
+st.subheader("Estimated odds of winning the Super Bowl")
+st.write(convert_dct(sb_dct))
+
+st.subheader("Estimated odds of winning the Conference")
+st.write(convert_dct(conf_champ_dct))
+
+st.subheader("Estimated odds of exact matchups")
+st.write(convert_dct(matchup_dct))
