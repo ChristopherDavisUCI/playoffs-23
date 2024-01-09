@@ -31,6 +31,7 @@ team_seeds = df["Seed"]
 pr_default = pd.read_csv("data/pr.csv")
 pr_default = pr_default[pr_default["Team"].isin(teams)]
 pr_default = pr_default.set_index("Team", drop=True)["PR"]
+pr_default = pr_default[teams]
 pr_default.loc["HFA"] = 1.3
 
 # index: seeds
